@@ -5,9 +5,10 @@
   edwardreeder.com
 </h1>
 
-[![Netlify Status](https://api.netlify.com/api/v1/badges/2091f59b-2c23-470f-887d-f8307c3ee053/deploy-status)](https://app.netlify.com/sites/edward-reeder-personal-website/deploys)
-
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project is built with [React](https://reactjs.org/) and hosted with [Netlify](https://www.netlify.com/).
+<div align="center">
+  [![Netlify Status](https://api.netlify.com/api/v1/badges/2091f59b-2c23-470f-887d-f8307c3ee053/deploy-status)](https://app.netlify.com/sites/edward-reeder-personal-website/deploys)
+</div>
 
 ## Available Scripts
 
