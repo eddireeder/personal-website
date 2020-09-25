@@ -1,3 +1,10 @@
+<div align="center">
+  <img alt="Logo" src="https://raw.githubusercontent.com/eddireeder/personal-website/master/public/android-chrome-192x192.png" width="100" />
+</div>
+<h1 align="center">
+  edwardreeder.com
+</h1>
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
