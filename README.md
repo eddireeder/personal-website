@@ -14,6 +14,8 @@ This project is built with <a href="https://reactjs.org/" target="_blank">React<
   </a>
 </p>
 
+![demo](https://raw.githubusercontent.com/eddireeder/personal-website/master/src/assets/images/demo.png)
+
 ## 🛠 Installation & Set Up
 
 1. Install dependencies
@@ -38,9 +40,9 @@ This project is built with <a href="https://reactjs.org/" target="_blank">React<
 
 ## 🎨 Color Reference
 
-| Color          | Hex                                                                |
-| -------------- | ------------------------------------------------------------------ |
-| White          | ![#eaf0f8](https://via.placeholder.com/10/eaf0f8?text=+) `#eaf0f8` |
-| Light Blue     | ![#d2deef](https://via.placeholder.com/10/d2deef?text=+) `#d2deef` |
-| Navy Blue      | ![#140064](https://via.placeholder.com/10/140064?text=+) `#140064` |
-| Green          | ![#58eeaf](https://via.placeholder.com/10/58eeaf?text=+) `#58eeaf` |
+| Color      | Hex                                                                |
+| ---------- | ------------------------------------------------------------------ |
+| White      | ![#eaf0f8](https://via.placeholder.com/10/eaf0f8?text=+) `#eaf0f8` |
+| Light Blue | ![#d2deef](https://via.placeholder.com/10/d2deef?text=+) `#d2deef` |
+| Navy Blue  | ![#140064](https://via.placeholder.com/10/140064?text=+) `#140064` |
+| Green      | ![#58eeaf](https://via.placeholder.com/10/58eeaf?text=+) `#58eeaf` |
