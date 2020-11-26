@@ -1,6 +1,6 @@
 import React from "react";
 import "./Badge.scss";
-import faceShot from "../../assets/images/faceshot.jpg";
+import faceShot from "../../../assets/images/faceshot.jpg";
 
 const Badge: React.FC = () => {
   return (
