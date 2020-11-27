@@ -1,8 +1,14 @@
 .Projects {
   .title {
     font-size: 1.5rem;
+    margin: 2rem 0;
+
     .built {
       font-weight: 800;
     }
+  }
+
+  .Project {
+    margin: 2rem 0;
   }
 }
