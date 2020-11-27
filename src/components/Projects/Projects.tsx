@@ -8,10 +8,11 @@ const Projects: React.FC = () => {
       <div className="title">
         Some Things I've <span className="built">Built</span>
       </div>
-      <Project/>
-      <Project/>
+      <Project />
+      <Project />
+      <Project />
     </div>
   );
-}
+};
 
 export default Projects;

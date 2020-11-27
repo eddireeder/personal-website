@@ -32,6 +32,6 @@ const Introduction: React.FC = () => {
       </div>
     </div>
   );
-}
+};
 
 export default Introduction;
