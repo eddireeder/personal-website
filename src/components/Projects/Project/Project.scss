@@ -1,3 +1,37 @@
 .Project {
   height: 20rem;
+  display: grid;
+  grid-template-columns: 55% 45%;
+
+  .information {
+    padding: 5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    .title {
+      margin: 0;
+      font-weight: 800;
+    }
+
+    .tags {
+      display: flex;
+
+      .tag {
+        font-size: 0.9rem;
+        color: #6250ac;
+        margin-right: 2rem;
+
+        &:last-child {
+          margin-right: 0;
+        }
+      }
+    }
+  }
+
+  .screenshot {
+    width: 100%;
+    align-self: end;
+    border-radius: 0 0 15px 0;
+  }
 }
