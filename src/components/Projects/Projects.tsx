@@ -12,14 +12,14 @@ const Projects: React.FC = () => {
         Some Things I've <span className="built">Built</span>
       </div>
       <Project
-        title="COVID 19 Diagnoser"
+        title="COVID 19 Analyser"
         description="Developed the frontend for a breakthrough COVID-19 diagnosis machine."
         tags={["Angular", "ASP.NET", "Websockets"]}
         image={covidScreenshot}
       />
       <Project
         title="Kekamo"
-        description="E-Commerce site that sells spiralised posters of your uploaded images."
+        description="Created an online store that sells 'spiralised' posters of uploaded images."
         tags={["React", "Redux", "Typescript"]}
         image={kekamoScreenshot}
       />
