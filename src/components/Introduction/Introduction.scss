@@ -26,6 +26,12 @@
     flex-wrap: wrap;
     margin-bottom: 2rem;
     justify-content: center;
+    transition: 0.7s;
+
+    &.hide {
+      transform: translate(0px, -40px);
+      opacity: 0;
+    }
 
     .tag {
       margin: 0 2rem;

@@ -1,8 +1,27 @@
-import React from "react";
+import React, { useEffect, useRef } from "react";
 import "./Introduction.scss";
 import Badge from "./Badge/Badge";
 
 const Introduction: React.FC = () => {
+  const tagsRef = useRef<HTMLDivElement>(null);
+
+  useEffect(() => {
+    window.addEventListener("scroll", handleScroll);
+    return () => {
+      window.removeEventListener("scroll", handleScroll);
+    };
+  }, []);
+
+  const handleScroll = (event: Event) => {
+    if (window.scrollY === 0) {
+      if (tagsRef.current?.classList.contains("hide")) {
+        tagsRef.current.classList.remove("hide");
+      }
+    } else if (!tagsRef.current?.classList.contains("hide")) {
+      tagsRef.current?.classList.add("hide");
+    }
+  };
+
   return (
     <div className="Introduction">
       <div className="center-piece">
@@ -12,7 +31,7 @@ const Introduction: React.FC = () => {
         </div>
         <Badge />
       </div>
-      <div className="tags">
+      <div ref={tagsRef} className="tags">
         <div className="tag">
           First Class Graduate{" "}
           <span role="img" aria-label="medal">
