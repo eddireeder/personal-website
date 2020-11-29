@@ -22,7 +22,7 @@ const Project: React.FC<Props> = (props) => {
           ))}
         </div>
       </div>
-      <img className="screenshot" src={props.image}></img>
+      <img className="screenshot" src={props.image} alt="project page"></img>
     </div>
   );
 };
