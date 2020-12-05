@@ -18,7 +18,7 @@ const Experiences: React.FC = () => {
         bullets={[
           "Write maintainable, well-tested code across the full stack with Angular and ASP.NET.",
           "Maximise test coverage by writing end-to-end tests using Specflow.",
-          "Utilise my '10% time' to work on exciting company projects such as the COVID-19 analyser.",
+          "Utilise my '10% time' to work on exciting company projects such as the COVID-19 Analyser.",
         ]}
         image={watersLogo}
       />
