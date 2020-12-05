@@ -1,8 +1,81 @@
 .Experience {
   display: grid;
+  height: 18rem;
   grid-template-columns: 30% 70%;
 
   .logo {
-    width: 100%;
+    width: 50%;
+    place-self: center;
+  }
+
+  .information {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 3rem 3rem 3rem 0;
+
+    .title {
+      margin: 0;
+
+      .company {
+        color: #6250ac;
+      }
+    }
+
+    .time-range {
+      font-size: 1rem;
+      margin-top: 0.5rem;
+    }
+
+    .bullet {
+      font-size: 0.9rem;
+      margin: 1rem 0;
+      display: flex;
+
+      &:last-child {
+        margin-bottom: 0;
+      }
+
+      .point {
+        border-top: 5px solid transparent;
+        border-left: 10px solid #6250ac;
+        border-bottom: 5px solid transparent;
+        height: 0;
+        width: 0;
+        margin-right: 0.8rem;
+        position: relative;
+        top: 2px;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .Experience {
+    grid-template-columns: 100%;
+
+    .information {
+      padding: 2.5rem;
+    }
+
+    .logo {
+      display: none;
+    }
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .Experience {
+    .information {
+      padding: 2rem;
+
+      .title {
+        font-size: 1.3rem;
+      }
+
+      .bullet {
+        font-size: 0.8rem;
+      }
+    }
   }
 }

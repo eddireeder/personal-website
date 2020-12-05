@@ -15,16 +15,19 @@ const Experience: React.FC<Props> = (props) => {
     <div className="Experience neu-card neu-mid">
       <img className="logo" src={props.image} alt="company logo"></img>
       <div className="information">
-        <div className="title">
-          {props.role} @ {props.company}
-        </div>
-        <div className="time-range">
-          {props.from} - {props.to}
+        <div>
+          <div className="title">
+            {props.role} @ <span className="company">{props.company}</span>
+          </div>
+          <div className="time-range">
+            {props.from} - {props.to}
+          </div>
         </div>
         <div className="bullets">
           {props.bullets.map((bullet, i) => (
             <div className="bullet" key={i}>
-              {bullet}
+              <div className="point"></div>
+              <div className="content">{bullet}</div>
             </div>
           ))}
         </div>
