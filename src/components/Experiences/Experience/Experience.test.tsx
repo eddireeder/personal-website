@@ -22,8 +22,13 @@ beforeEach(() => {
   );
 });
 
-test("renders the title", () => {
-  const titleElement = screen.getByText(`${role} @ ${company}`);
+test("renders the role", () => {
+  const titleElement = screen.getByText(`${role} @`);
+  expect(titleElement).toBeInTheDocument();
+});
+
+test("renders the company", () => {
+  const titleElement = screen.getByText(company);
   expect(titleElement).toBeInTheDocument();
 });
 
