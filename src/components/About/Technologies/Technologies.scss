@@ -1,0 +1,25 @@
+.Technologies {
+  .grid {
+    display: grid;
+    grid-template-columns: 15rem 15rem;
+    margin-top: 2rem;
+
+    .technology {
+      display: flex;
+      align-items: center;
+      height: 2rem;
+
+      > *:not(:first-child) {
+        margin-left: 1.2rem;
+      }
+
+      .name {
+        height: 1rem;
+      }
+
+      img {
+        width: 1.1rem;
+      }
+    }
+  }
+}

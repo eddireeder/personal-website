@@ -1,6 +1,13 @@
 import React from "react";
 import "./About.scss";
 import exeterLogo from "../../assets/images/exeter-logo.png";
+import Technologies from "./Technologies/Technologies";
+import typescriptLogo from "../../assets/images/typescript-logo.png";
+import nodejsLogo from "../../assets/images/nodejs-logo.png";
+import reactLogo from "../../assets/images/react-logo.png";
+import cSharpLogo from "../../assets/images/c-sharp-logo.png";
+import angularLogo from "../../assets/images/angular-logo.png";
+import dockerLogo from "../../assets/images/docker-logo.png";
 
 const About: React.FC = () => {
   return (
@@ -25,6 +32,16 @@ const About: React.FC = () => {
         </div>
         <img src={exeterLogo} alt="University Of Exeter logo" />
       </div>
+      <Technologies
+        technologies={[
+          { name: "Typescript", image: typescriptLogo },
+          { name: "Node.js", image: nodejsLogo },
+          { name: "React", image: reactLogo },
+          { name: "ASP.NET", image: cSharpLogo },
+          { name: "Angular", image: angularLogo },
+          { name: "Docker", image: dockerLogo },
+        ]}
+      />
     </div>
   );
 };
