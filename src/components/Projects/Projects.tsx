@@ -9,7 +9,7 @@ const Projects: React.FC = () => {
   return (
     <div className="Projects">
       <div className="title">
-        Things I've <span className="built">Built</span>
+        3. Things I've <span className="built">Built</span>
       </div>
       <Project
         title="COVID-19 Analyser"

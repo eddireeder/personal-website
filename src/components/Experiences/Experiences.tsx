@@ -8,7 +8,7 @@ const Experiences: React.FC = () => {
   return (
     <div className="Experiences">
       <div className="title">
-        Places I've <span className="worked">Worked</span>
+        2. Places I've <span className="worked">Worked</span>
       </div>
       <Experience
         role="Software Engineer"

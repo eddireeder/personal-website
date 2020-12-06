@@ -13,7 +13,7 @@ const About: React.FC = () => {
   return (
     <div className="About">
       <div className="title">
-        About <span className="me">Me</span>
+        1. About <span className="me">Me</span>
       </div>
       <div className="neu-card neu-mid">
         <div className="text">
