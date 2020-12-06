@@ -1,4 +1,5 @@
 import React from "react";
+import BulletPoint from "../../BulletPoint/BulletPoint";
 import "./Experience.scss";
 
 interface Props {
@@ -26,7 +27,7 @@ const Experience: React.FC<Props> = (props) => {
         <div className="bullets">
           {props.bullets.map((bullet, i) => (
             <div className="bullet" key={i}>
-              <div className="point"></div>
+              <BulletPoint />
               <div className="content">{bullet}</div>
             </div>
           ))}

@@ -36,15 +36,10 @@
         margin-bottom: 0;
       }
 
-      .point {
-        border-top: 5px solid transparent;
-        border-left: 10px solid #6250ac;
-        border-bottom: 5px solid transparent;
-        height: 0;
-        width: 0;
+      .BulletPoint {
         margin-right: 0.8rem;
         position: relative;
-        top: 2px;
+        top: 3px;
       }
     }
   }
