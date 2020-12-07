@@ -19,9 +19,9 @@ const About: React.FC = () => {
         <div className="text">
           <p>Hi! I’m Edward, a software engineer based in London.</p>
           <p>
-            I’m addicted to taking projects from idea, to design, to completion.
-            Whether a simple native app, or a scalable microservice-based web
-            application.
+            I’m addicted to taking projects from idea, through design, to
+            completion. Whether a native mobile app, or a microservice-based web
+            application that scales.
           </p>
           <p>
             Shortly after graduating from{" "}
