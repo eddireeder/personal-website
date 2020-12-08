@@ -42,3 +42,59 @@
     margin: 4rem 0rem 0rem 4rem;
   }
 }
+
+@media screen and (max-width: 700px) {
+  .About {
+    .neu-card {
+      .text {
+        padding: 3rem 0rem 3rem 3rem;
+      }
+    }
+
+    .Technologies {
+      margin-left: 3rem;
+    }
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .About {
+    .neu-card {
+      grid-template-columns: 100% 0%;
+
+      .text {
+        padding: 2.5rem;
+      }
+
+      img {
+        display: none;
+      }
+    }
+
+    .Technologies {
+      margin-left: 2.5rem;
+    }
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .About {
+    .neu-card {
+      .text {
+        padding: 2rem;
+      }
+    }
+
+    .Technologies {
+      margin-left: 2rem;
+    }
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .About {
+    .Technologies {
+      margin-left: 0rem;
+    }
+  }
+}

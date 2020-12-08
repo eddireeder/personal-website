@@ -1,7 +1,7 @@
 .Technologies {
   .grid {
     display: grid;
-    grid-template-columns: 15rem 15rem;
+    grid-template-columns: 15rem auto;
     margin-top: 2rem;
 
     .technology {
@@ -20,6 +20,22 @@
       img {
         width: 1.1rem;
       }
+    }
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .Technologies {
+    .grid {
+      grid-template-columns: 11rem auto;
+    }
+  }
+}
+
+@media screen and (max-width: 350px) {
+  .Technologies {
+    .grid {
+      grid-template-columns: auto;
     }
   }
 }
