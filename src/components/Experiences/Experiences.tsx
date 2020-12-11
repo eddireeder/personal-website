@@ -6,7 +6,7 @@ import alelionLogo from "../../assets/images/alelion-logo.png";
 
 const Experiences: React.FC = () => {
   return (
-    <div className="Experiences">
+    <div className="Experiences" id="experiences">
       <div className="title">
         2. Places I've <span className="worked">Worked</span>
       </div>

@@ -1,7 +1,15 @@
+$page-padding: 2rem;
+
 .App {
+  position: relative;
   max-width: 65rem;
   margin: 0 auto;
-  padding: 0 2rem;
+  padding: 0 $page-padding;
+
+  .NavBar {
+    position: absolute;
+    width: calc(100% - #{$page-padding} * 2);
+  }
 
   .Projects,
   .Experiences {

@@ -11,7 +11,7 @@ import dockerLogo from "../../assets/images/docker-logo.png";
 
 const About: React.FC = () => {
   return (
-    <div className="About">
+    <div className="About" id="about">
       <div className="title">
         1. About <span className="me">Me</span>
       </div>

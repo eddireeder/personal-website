@@ -7,7 +7,7 @@ import kekamoScreenshot from "../../assets/images/kekamo-screenshot.png";
 
 const Projects: React.FC = () => {
   return (
-    <div className="Projects">
+    <div className="Projects" id="projects">
       <div className="title">
         3. Things I've <span className="built">Built</span>
       </div>
