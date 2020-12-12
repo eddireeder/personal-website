@@ -11,24 +11,30 @@
     .number {
       color: #6250ac;
     }
+  }
+}
 
-    &:before {
-      content: "";
-      position: absolute;
-      background-color: #58eeaf;
-      height: 0.5rem;
-      top: 1.25rem;
-      left: 0.5rem;
-      width: 0;
-      z-index: -1;
-      transition: 0.4s;
-    }
-
-    &:hover {
-      cursor: pointer;
-
+@media (hover: hover) and (pointer: fine) {
+  .NavBar {
+    a {
       &:before {
-        width: calc(100% - 1rem);
+        content: "";
+        position: absolute;
+        background-color: #58eeaf;
+        height: 0.5rem;
+        top: 1.25rem;
+        left: 0.5rem;
+        width: 0;
+        z-index: -1;
+        transition: 0.4s;
+      }
+
+      &:hover {
+        cursor: pointer;
+
+        &:before {
+          width: calc(100% - 1rem);
+        }
       }
     }
   }
