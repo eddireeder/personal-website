@@ -16,7 +16,8 @@ const NavBar: React.FC<Props> = (props) => {
     <div className="NavBar">
       {props.links.map((link, i) => (
         <Link key={i} to={link.to} smooth={true}>
-          {i + 1}. {link.text}
+          <span className="number">{i + 1}. </span>
+          {link.text}
         </Link>
       ))}
     </div>
