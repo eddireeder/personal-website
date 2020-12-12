@@ -12,7 +12,7 @@ const Project: React.FC<Props> = (props) => {
   return (
     <div className="Project neu-card neu-mid">
       <div className="information">
-        <div className="title">{props.title}</div>
+        <div className="name">{props.title}</div>
         <div className="description">{props.description}</div>
         <div className="tags">
           {props.tags.map((tag, i) => (

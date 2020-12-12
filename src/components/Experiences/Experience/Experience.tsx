@@ -17,7 +17,7 @@ const Experience: React.FC<Props> = (props) => {
       <img className="logo" src={props.image} alt="company logo"></img>
       <div className="information">
         <div>
-          <div className="title">
+          <div className="role-company">
             {props.role} @ <span className="company">{props.company}</span>
           </div>
           <div className="time-range">
