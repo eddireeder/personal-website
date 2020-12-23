@@ -32,7 +32,7 @@ This project is built with <a href="https://reactjs.org/" target="_blank">React<
 
 ## 🚀 Building and Running for Production
 
-1. Builds the app for production to the build folder
+1. Builds the app for production to the `public` folder
 
    ```sh
    npm run build
