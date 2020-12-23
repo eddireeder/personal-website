@@ -1,5 +1,5 @@
 <div align="center">
-  <img alt="Logo" src="https://raw.githubusercontent.com/eddireeder/personal-website/master/src/assets/images/demo.png" width="70" />
+  <img alt="Logo" src="https://raw.githubusercontent.com/eddireeder/personal-website/master/src/images/demo.png" width="70" />
 </div>
 <h1 align="center">
   edwardreeder.com
@@ -14,7 +14,7 @@ This project is built with <a href="https://reactjs.org/" target="_blank">React<
   </a>
 </p>
 
-![demo](https://raw.githubusercontent.com/eddireeder/personal-website/master/src/assets/images/demo.png)
+![demo](https://raw.githubusercontent.com/eddireeder/personal-website/master/src/images/demo.png)
 
 ## 🛠 Installation & Set Up
 
@@ -35,7 +35,7 @@ This project is built with <a href="https://reactjs.org/" target="_blank">React<
 1. Builds the app for production to the build folder
 
    ```sh
-   npm build
+   npm run build
    ```
 
 ## 🎨 Color Reference
