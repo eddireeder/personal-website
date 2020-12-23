@@ -8,6 +8,10 @@ const Wrapper = styled.div`
   padding-top: 2rem;
   display: flex;
   justify-content: flex-end;
+
+  @media screen and (max-width: 600px) {
+    display: none;
+  }
 `;
 
 const NavLink = styled(Link)`
@@ -15,6 +19,7 @@ const NavLink = styled(Link)`
   position: relative;
   z-index: 1;
   text-decoration: none;
+  color: ${(props) => props.theme.colors.primary.dark};
 
   @media (hover: hover) and (pointer: fine) {
     &:before {
