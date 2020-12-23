@@ -14,7 +14,7 @@ This project is built with <a href="https://reactjs.org/" target="_blank">React<
   </a>
 </p>
 
-![demo](https://raw.githubusercontent.com/eddireeder/personal-website/master/src/images/demo.png)
+![demo](https://raw.githubusercontent.com/eddireeder/personal-website/master/src/images/logo.png)
 
 ## 🛠 Installation & Set Up
 
