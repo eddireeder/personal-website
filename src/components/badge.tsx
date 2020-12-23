@@ -20,6 +20,8 @@ const Ring = styled(NeuCard)`
   border: solid 0.5rem ${(props) => props.theme.colors.secondary};
   overflow: hidden;
   place-self: center;
+  position: relative;
+  z-index: 0;
 `;
 
 const SocialRow = styled.div`
