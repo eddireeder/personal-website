@@ -6,7 +6,7 @@
 </h1>
 
 <p align="center">
-This project is built with <a href="https://reactjs.org/" target="_blank">React</a> and hosted with <a href="https://www.netlify.com/" target="_blank">Netlify</a>.
+This project is built with <a href="https://www.gatsbyjs.com/" target="_blank">Gatsby</a> and hosted with <a href="https://www.netlify.com/" target="_blank">Netlify</a>.
 </p>
 <p align="center">
   <a href="https://app.netlify.com/sites/edward-reeder-personal-website/deploys" target="_blank">
