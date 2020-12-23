@@ -84,6 +84,7 @@ const Project: React.FC<Props> = (props) => {
       <ProjectScreenshotImage
         image={props.imageData}
         alt={`${props.title} screenshot`}
+        loading="eager"
       ></ProjectScreenshotImage>
     </Wrapper>
   );
