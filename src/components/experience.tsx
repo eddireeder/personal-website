@@ -91,6 +91,7 @@ const Experience: React.FC<Props> = (props) => {
       <LogoImage
         image={props.imageData}
         alt={`${props.company} logo`}
+        loading="eager"
       ></LogoImage>
       <Information>
         <div>

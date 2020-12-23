@@ -52,6 +52,7 @@ const Badge: React.FC = () => {
           src="../images/faceshot.jpg"
           alt="faceshot"
           layout="fluid"
+          loading="eager"
           transformOptions={{}}
           blurredOptions={{}}
         />
