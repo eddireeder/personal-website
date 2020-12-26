@@ -39,8 +39,8 @@ const Section = styled.main`
 `;
 
 const Footer = styled.footer`
-  height: 12rem;
-  margin-top: 10rem;
+  height: 10rem;
+  margin-top: 8rem;
   background-color: #cadaee;
 `;
 
