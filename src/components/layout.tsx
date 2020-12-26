@@ -41,7 +41,7 @@ const Section = styled.main`
 const Footer = styled.footer`
   height: 12rem;
   margin-top: 10rem;
-  background-color: #cedae9;
+  background-color: #cadaee;
 `;
 
 const FooterSection = styled(Section)`
