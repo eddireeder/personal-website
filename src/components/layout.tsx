@@ -22,6 +22,11 @@ const GlobalStyle = createGlobalStyle`
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     color: ${theme.colors.primary.dark};
+
+    a {
+      color: ${theme.colors.primary.light};
+      text-decoration: none;
+    }
   }
 `;
 
@@ -33,15 +38,52 @@ const Section = styled.main`
 `;
 
 const Footer = styled.footer`
-  height: 5rem;
+  height: 12rem;
+  margin-top: 10rem;
+  background-color: #cedae9;
 `;
+
+const FooterSection = styled(Section)`
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+`;
+
+const BuiltWith = styled.div``;
+
+const Source = styled.div``;
 
 const Layout: React.FC = ({ children }) => {
   return (
     <ThemeProvider theme={theme}>
       <GlobalStyle />
       <Section>{children}</Section>
-      <Footer />
+      <Footer>
+        <FooterSection>
+          <BuiltWith>
+            Built with{" "}
+            <a
+              href="https://www.gatsbyjs.com/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Gatsby
+            </a>{" "}
+            in Typescript
+          </BuiltWith>
+          <Source>
+            Github{" "}
+            <a
+              href="https://github.com/eddireeder/personal-website"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Source
+            </a>
+          </Source>
+        </FooterSection>
+      </Footer>
     </ThemeProvider>
   );
 };
