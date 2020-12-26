@@ -2,6 +2,7 @@ import React from "react";
 import styled, { createGlobalStyle, ThemeProvider } from "styled-components";
 import theme from "../theme";
 import "../css/typography.css";
+import RepoInfo from "./repo-info";
 
 //add smooth scrolling
 if (typeof window !== "undefined") {
@@ -52,8 +53,6 @@ const FooterSection = styled(Section)`
 
 const BuiltWith = styled.div``;
 
-const Source = styled.div``;
-
 const Layout: React.FC = ({ children }) => {
   return (
     <ThemeProvider theme={theme}>
@@ -72,16 +71,7 @@ const Layout: React.FC = ({ children }) => {
             </a>{" "}
             in Typescript
           </BuiltWith>
-          <Source>
-            Github{" "}
-            <a
-              href="https://github.com/eddireeder/personal-website"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              Source
-            </a>
-          </Source>
+          <RepoInfo username="eddireeder" repo="personal-website" />
         </FooterSection>
       </Footer>
     </ThemeProvider>
