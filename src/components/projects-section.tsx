@@ -53,12 +53,14 @@ const ProjectsSection: React.FC = () => {
               description="Created an online store that sells 'spiralised' posters of uploaded images."
               tags={["React", "Redux", "Typescript"]}
               imageData={data.kekamoScreenshot.childImageSharp.gatsbyImageData}
+              directLink="https://kekamo.com"
             />
             <Project
               title="HQHero"
               description="Designed and developed the frontend to a popular quiz helper with +300k page views."
               tags={["Angular", "SCSS"]}
               imageData={data.hqheroScreenshot.childImageSharp.gatsbyImageData}
+              githubLink="https://github.com/freshollie/hqhero"
             />
           </>
         )}

@@ -1,6 +1,8 @@
 import { GatsbyImage, IGatsbyImageData } from "gatsby-plugin-image";
 import React from "react";
 import styled from "styled-components";
+import GithubSVG from "../svgs/github";
+import LinkSVG from "../svgs/link";
 import NeuCard from "./neu-card";
 
 interface Props {
@@ -8,6 +10,8 @@ interface Props {
   description: string;
   tags: string[];
   imageData: IGatsbyImageData;
+  directLink?: string;
+  githubLink?: string;
 }
 
 const Wrapper = styled(NeuCard)`
@@ -69,6 +73,14 @@ const ProjectScreenshotImage = styled(GatsbyImage)`
   }
 `;
 
+const Links = styled.div`
+  svg {
+    width: 1.2rem;
+    height: 1.2rem;
+    fill: ${(props) => props.theme.colors.primary.light};
+  }
+`;
+
 const Project: React.FC<Props> = (props) => {
   return (
     <Wrapper size="medium">
@@ -80,6 +92,26 @@ const Project: React.FC<Props> = (props) => {
             <Tag key={i}>{tag}</Tag>
           ))}
         </Tags>
+        <Links>
+          {props.directLink && (
+            <a
+              href={props.directLink}
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <LinkSVG />
+            </a>
+          )}
+          {props.githubLink && (
+            <a
+              href={props.githubLink}
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <GithubSVG />
+            </a>
+          )}
+        </Links>
       </Information>
       <ProjectScreenshotImage
         image={props.imageData}
