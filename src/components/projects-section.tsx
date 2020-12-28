@@ -31,6 +31,13 @@ const ProjectsSection: React.FC = () => {
                 gatsbyImageData(layout: FLUID)
               }
             }
+            theSonosynthesiserScreenshots: file(
+              relativePath: { eq: "the-sonosynthesiser-screenshots.png" }
+            ) {
+              childImageSharp {
+                gatsbyImageData(layout: FLUID)
+              }
+            }
             hqheroScreenshot: file(
               relativePath: { eq: "hqhero-screenshot.png" }
             ) {
@@ -54,6 +61,15 @@ const ProjectsSection: React.FC = () => {
               tags={["React", "Redux", "Typescript"]}
               imageData={data.kekamoScreenshot.childImageSharp.gatsbyImageData}
               directLink="https://kekamo.com"
+            />
+            <Project
+              title="The Sonosynthesiser"
+              description="Built an app to explore the BBC's SFX archive through movement. Showcased in multiple exhibitions."
+              tags={["Android", "Kotlin", "Node.js"]}
+              imageData={
+                data.theSonosynthesiserScreenshots.childImageSharp
+                  .gatsbyImageData
+              }
             />
             <Project
               title="HQHero"
