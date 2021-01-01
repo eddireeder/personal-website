@@ -70,6 +70,7 @@ const ProjectsSection: React.FC = () => {
                 data.theSonosynthesiserScreenshots.childImageSharp
                   .gatsbyImageData
               }
+              githubLink="https://github.com/eddireeder/the-sonosynthesiser-android-app"
             />
             <Project
               title="HQHero"
