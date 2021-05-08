@@ -60,7 +60,6 @@ const ProjectsSection: React.FC = () => {
               description="Created an online store that sells 'spiralised' posters of uploaded images."
               tags={["React", "Redux", "Typescript"]}
               imageData={data.kekamoScreenshot.childImageSharp.gatsbyImageData}
-              directLink="https://kekamo.com"
             />
             <Project
               title="The Sonosynthesiser"
