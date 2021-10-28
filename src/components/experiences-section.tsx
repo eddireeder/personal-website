@@ -17,6 +17,11 @@ const ExperiencesSection: React.FC = () => {
       <StaticQuery
         query={graphql`
           query {
+            intuitLogo: file(relativePath: { eq: "intuit-logo.png" }) {
+              childImageSharp {
+                gatsbyImageData(layout: FLUID)
+              }
+            }
             watersLogo: file(relativePath: { eq: "waters-logo.png" }) {
               childImageSharp {
                 gatsbyImageData(layout: FLUID)
@@ -33,13 +38,25 @@ const ExperiencesSection: React.FC = () => {
           <>
             <Experience
               role="Software Engineer"
-              company="Waters"
-              from="Dec 2019"
+              company="Intuit"
+              from="Mar 2021"
               to="Present"
               bullets={[
-                "Write maintainable, well-tested code across the full stack with Angular and ASP.NET.",
-                "Maximise test coverage by writing end-to-end tests using Specflow.",
-                "Utilise my '10% time' to work on exciting company projects such as the COVID-19 Analyser.",
+                "Writing maintainable, well-tested code across the full stack using React and Groovy.",
+                "Leading our team to build the product’s most requested feature.",
+                "Driving retrospective meetings to enhance our team’s velocity and productivity.",
+              ]}
+              imageData={data.intuitLogo.childImageSharp.gatsbyImageData}
+            />
+            <Experience
+              role="Software Engineer"
+              company="Waters"
+              from="Dec 2019"
+              to="Jan 2021"
+              bullets={[
+                "Developed modern full stack applications with Angular and ASP.NET.",
+                "Maximised test coverage by writing end-to-end tests using Specflow.",
+                "Utilised my '10% time' to work on exciting company projects such as the COVID-19 Analyser.",
               ]}
               imageData={data.watersLogo.childImageSharp.gatsbyImageData}
             />

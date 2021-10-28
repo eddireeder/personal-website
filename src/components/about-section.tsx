@@ -74,10 +74,9 @@ const AboutSection: React.FC = () => {
             application that scales.
           </Paragraph>
           <Paragraph>
-            Shortly after graduating from{" "}
-            <Highlight>University Of Exeter</Highlight>, I started working @{" "}
-            <Highlight>Waters</Highlight>, where I love writing modern,
-            maintainable code using the latest frameworks.
+            After graduating from <Highlight>University Of Exeter</Highlight>, I
+            now work @ <Highlight>Intuit</Highlight>, where I love writing
+            modern, maintainable code using the latest frameworks.
           </Paragraph>
         </TextWrapper>
         <ImageWrapper>
